@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WFCustomization.Core\WFCustomization.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Convey" Version="0.6.522" />
+    <PackageReference Include="Convey.CQRS.Commands" Version="0.6.522" />
+    <PackageReference Include="Convey.CQRS.Events" Version="0.6.522" />
+    <PackageReference Include="Convey.CQRS.Queries" Version="0.6.522" />
+    <PackageReference Include="System.DirectoryServices" Version="7.0.1" />
+    <PackageReference Include="System.DirectoryServices.AccountManagement" Version="7.0.1" />
+
+  </ItemGroup>
+  
+</Project>
