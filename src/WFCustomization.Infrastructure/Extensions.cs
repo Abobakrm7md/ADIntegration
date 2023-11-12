@@ -24,7 +24,7 @@ namespace WFCustomization.Infrastructure
             services.AddContext();
             services.AddSwaggerDocs();
             services.AddMediatR(typeof(Extensions).Assembly, typeof(Application.Extensions).Assembly);
-            var x = services.GetOptions<AppSettings>("app");
+            //var x = services.GetOptions<AppSettings>("app");
             services.AddSingleton(services.GetOptions<AppSettings>("app"));
 
             services.AddTransient<IOrdersRepository, OrdersRepository>();
